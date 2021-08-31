@@ -37,6 +37,10 @@ header {
     margin-left: 30px;
 }
 
+.album-name {
+    transform: none;    
+}
+
 /* main部分のCSS */
 main {
     width: 700px;
