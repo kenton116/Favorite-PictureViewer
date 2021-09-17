@@ -109,18 +109,18 @@ footer {
 
 
 @media screen and (max-width:600px) {
-    footer {
+      footer {
         width: 500px;
     }
 
     .add-picture {
         width: 400px;
     }
-    
+
     header {
         width: 500px;
     }
-        
+
     .menu {
         display: block;
         width: auto;
@@ -128,6 +128,10 @@ footer {
 
     .menu h2 {
         margin-left: 5px;
+    }
+
+    main {
+        width: 500px;
     }
 
     main {
