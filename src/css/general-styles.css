@@ -116,10 +116,13 @@ footer {
     .add-picture {
         width: 400px;
     }
-
+    
+    header {
+        width: 500px;
+    }
+        
     .menu {
         display: block;
-        width: 500px;
     }
 
     .menu h2 {
