@@ -123,6 +123,7 @@ footer {
         
     .menu {
         display: block;
+        width: auto;
     }
 
     .menu h2 {
