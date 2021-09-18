@@ -16,7 +16,7 @@ Favorite PictureViewerは、kenton116が作成したアプリです。
 
 お気に入りの写真などを簡単にまとめることができるアプリが欲しいと思って作りました。
 
-メモ機能を実装しました。
+メモ機能、撮影地機能、リンクを実装しました。
 
 ## 使い方
 [こちら](https://github.com/kenton116/Favorite-PictureViewer/wiki/How-to-play)で確認できます。
