@@ -61,7 +61,8 @@ img {
 }
 
 img:hover {
-    transform:scale(1.4,1.4);
+    width: 250px;
+    height: auto;
 }
 
 .img-div {
