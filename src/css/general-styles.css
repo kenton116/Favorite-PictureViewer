@@ -14,25 +14,25 @@ header {
     padding-bottom: 5px;
 }
 
-#Top {
+.Top {
     width: auto;
     margin: auto;
     text-align: center;
 }
 
-#Title h1 {
+.Title h1 {
     transform: rotate(5deg);
     font-size: 2.5em;
 }
 
-#menu {
+.menu {
     width: 700px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
-#menu h2 {
+.menu h2 {
     text-align: center;
     margin-left: 30px;
 }
@@ -48,7 +48,7 @@ main h2 , h3 {
     text-align: center;
 }
 
-#picture {
+.picture {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,16 +70,6 @@ img:hover {
 .img-div {
     width: 200px;
     margin-right: 10px;
-}
-
-.Add-picture {
-    position: absolute;
-    bottom: auto;
-    box-shadow: 0 0 8px gray;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(0, 200, 210);
 }
 
 .add-picture {
@@ -106,7 +96,7 @@ footer {
     background-color: #ddd;
 }
 
-#End {
+.End {
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -116,7 +106,7 @@ footer {
     color: #333;
 }
 
-#End h3 {
+.End h3 {
     text-align: center;
 }
 
@@ -133,12 +123,12 @@ footer {
         width: 500px;
     }
 
-    #menu {
+    .menu {
         display: block;
         width: auto;
     }
 
-    #menu h2 {
+    .menu h2 {
         margin-left: 5px;
     }
 
