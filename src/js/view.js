@@ -2,7 +2,6 @@
 const addPicture = document.getElementById("add-picture");
 const pictureDivided = document.getElementById('add-picture-area');
 const linkText = document.getElementById('linkText');
-const attention = document.getElementById('attention');
 const inLinkText = document.getElementById('Text');
 let linkValue;
 
@@ -21,7 +20,6 @@ addPicture.addEventListener("change", function(evt){
   //ファイルの読込が終了した時の処理
   reader.onload = function(){
   const dataUrl = reader.result;
-  attention.innerText = '他の写真も追加できます';
 
   //読み込んだ画像とdataURLを書き出す
   if (linkValue.length === 0) {
