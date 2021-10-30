@@ -23,11 +23,11 @@ addPicture.addEventListener("change", function(evt){
 
   //読み込んだ画像とdataURLを書き出す
   if (linkValue.length === 0) {
-    pictureDivided.insertAdjacentHTML("beforebegin" ,"<div class='img-div'><img src='" + dataUrl + "'><br><textarea placeHolder='メモを入力' class='memo'></textarea><br><strong>リンク指定なし</strong></div>");
+    pictureDivided.insertAdjacentHTML("beforebegin" ,"<div class='img-div'><a href='" + dataUrl +"' data-lightbox='group'><img src='" + dataUrl + "'></a><br><textarea placeHolder='メモを入力' class='memo'></textarea><br><strong>リンク指定なし</strong></div>");
   } else if (inLinkValue.length === 0) {
-    pictureDivided.insertAdjacentHTML("beforebegin" , "<div class='img-div'><img src='" + dataUrl +  "'><br><textarea placeHolder='メモを入力'  class='memo'></textarea><br><a href='" + linkValue +"' target='_blank' rel='noopener   noreferrer'>リンク</a></div>");
+    pictureDivided.insertAdjacentHTML("beforebegin" , "<div class='img-div'><a href='" + dataUrl +"' data-lightbox='group' width='50%'><img src='" + dataUrl +  "'></a><br><textarea placeHolder='メモを入力'  class='memo'></textarea><br><a href='" + linkValue +"' target='_blank' rel='noopener   noreferrer'>リンク</a></div>");
   } else {
-    pictureDivided.insertAdjacentHTML("beforebegin" , "<div class='img-div'><img src='" + dataUrl +  "'><br><textarea placeHolder='メモを入力'  class='memo'></textarea><br><a href='" + linkValue +"' target='_blank' rel='noopener   noreferrer'>" + inLinkValue +"</a></div>");
+    pictureDivided.insertAdjacentHTML("beforebegin" , "<div class='img-div'><a href='" + dataUrl +"' data-lightbox='group' width='50%'><img src='" + dataUrl +  "'></a><br><textarea placeHolder='メモを入力'  class='memo'></textarea><br><a href='" + linkValue +"' target='_blank' rel='noopener   noreferrer'>" + inLinkValue +"</a></div>");
     }
   }
 },false);
