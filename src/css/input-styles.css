@@ -1,5 +1,5 @@
 /* inputタグ全体のCSS */
-input {
+input,.hidden_box label {
         height: 25px;
         width: 250px;
         background-color: #eee;
@@ -10,6 +10,14 @@ input {
         transition: 700ms;
         margin-bottom: 15px;
 }
+
+.hidden_box label {
+    padding: 15px;
+}
+
+.hidden_box input {
+    display: none;
+}
     
 input:focus {
     border: 2px solid gray;
@@ -18,7 +26,7 @@ input:focus {
     transform: translate(1px 2px);
 }
 
-input[type="file"] , input[type="text"]{
+input[type="file"],input[type="text"]{
     display: block;
     width: 250px;
     margin-left: auto;
@@ -37,7 +45,7 @@ button {
     transition: 700ms;
 }
 
-button:hover {
+button:hover,.hidden_box label:hover {
     background-color: #333;
     box-shadow: none;
     transform: translate(1px,2px);
@@ -59,4 +67,17 @@ textarea{
     align-items: center;
     margin: auto;
     resize: none;
+    box-shadow: 7px 7px 7px #ddd;
+    transition: 700ms;
+}
+
+textarea:hover{
+    background-color: rgb(0, 200, 210);
+    box-shadow: none;
+    transition: 700ms;
+}
+
+textarea:focus {
+    background-color: rgb(0, 200, 210);
+    box-shadow: none;
 }

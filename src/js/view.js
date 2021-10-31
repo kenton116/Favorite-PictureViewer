@@ -3,6 +3,7 @@ const addPicture = document.getElementById("add-picture");
 const pictureDivided = document.getElementById('add-picture-area');
 const linkText = document.getElementById('linkText');
 const inLinkText = document.getElementById('Text');
+const tutorialText = document.getElementById('tutorial');
 let linkValue;
 
 // 画像が追加された時の処理
@@ -20,6 +21,7 @@ addPicture.addEventListener("change", function(evt){
   //ファイルの読込が終了した時の処理
   reader.onload = function(){
   const dataUrl = reader.result;
+  tutorialText.innerText = '';
 
   //読み込んだ画像とdataURLを書き出す
   if (linkValue.length === 0) {
