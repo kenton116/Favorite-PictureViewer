@@ -21,12 +21,14 @@
     <link rel="stylesheet" href="src/css/input-styles.css">
     <!-- Titleを設定 -->
     <title>Favorite PictureViewer</title>
+    <!-- ポップアップ表示用ライブラリの読み込み -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 </head>
 <body>
     <header>
+        <!-- ヘッダー部分のhtml -->
         <div id="Top">
             <div id="Title">
                 <h1>Favorite PictureViewer</h1>
@@ -44,6 +46,7 @@
     </header>
     <main>
         <section class="Add-picture">
+            <!-- 写真追加メニューのhtml -->
             <div class="hidden_box">
                 <input type="checkbox" id="label1"/>
                 <label for="label1">追加</label>
@@ -56,7 +59,9 @@
             </div>
         </section>
         <section id="Picture-view">
+            <!-- 写真の表示エリアのhtml -->
                 <h2>Picture</h2>
+                <h4 id="tutorial">ここに写真が追加されます</h4>
                     <div id="picture">
                         <div id="add-picture-area" class="add-picture"></div>
                         <div id='add-memo-area' class='add-memo'></div>
@@ -64,6 +69,7 @@
         </section>
     </main>
     <footer>
+        <!-- フッター部分のhtml -->
         <div id="End">
             <a href="https://twitter.com/intent/tweet?button_hashtag=FavoritePicture&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-text="I&#39;m playing Favorite Picture Viewer now!" data-url="https://kenton116.github.io/Favorite-PictureViewer/main.html" data-show-count="false">Tweet #FavoritePicture</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
