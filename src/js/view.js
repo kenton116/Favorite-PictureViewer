@@ -21,7 +21,7 @@ addPicture.addEventListener("change", function(evt){
   //ファイルの読込が終了した時の処理
   reader.onload = function(){
   const dataUrl = reader.result;
-  tutorialText.innerText = '';
+  tutorialText.innerText = 'ピクチャライブラリ';
 
   //読み込んだ画像とdataURLを書き出す
   if (linkValue.length === 0) {

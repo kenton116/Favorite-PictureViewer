@@ -23,6 +23,21 @@ header {
 #Title h1 {
     transform: rotate(5deg);
     font-size: 2.5em;
+    text-shadow: 3px 3px 3px #fff;
+}
+
+a {
+    color: #333;
+}
+
+a:visited {
+    color: #555;
+}
+
+a:hover {
+    text-shadow: 2px 2px 2px #ddd;
+    color: #888;
+    transition: 700ms;
 }
 
 #menu {
@@ -70,7 +85,7 @@ img {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 75%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -119,6 +134,7 @@ img {
     height: auto;
     opacity: 1;
     box-shadow: 2px 2px 2px #ddd;
+    width: 50%;
 }
 
 /* footer部分のCSS */
@@ -170,5 +186,9 @@ footer {
 
     main {
         width: 500px;
+    }
+
+    .hidden_box input:checked ~ .hidden_show {
+        width: 100%;
     }
 }
