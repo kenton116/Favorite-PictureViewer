@@ -1,4 +1,4 @@
-# [Favorite PictureViewer](https://kenton116.github.io/Favorite-PictureViewer/main.html)
+# Favorite PictureViewer
 
 画像をWebページ上に管理できるサービスです。
 
