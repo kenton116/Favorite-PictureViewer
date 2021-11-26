@@ -20,8 +20,8 @@ Favorite PictureViewerは、kenton116が作成したアプリです。
 
 ## 使い方
 [こちら](https://kenton116.github.io/Favorite-PictureViewer/main.html)からアプリにアクセスできます。（日本語）
-
 [こちら](https://github.com/kenton116/Favorite-PictureViewer/wiki/How-to-play)で確認できます。
+
 
 ## 推奨ブラウザ
 可能な限り最新版を使用してください。
