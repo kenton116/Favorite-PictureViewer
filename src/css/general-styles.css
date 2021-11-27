@@ -1,0 +1,194 @@
+/* bodyタグ全体のCSS */
+body {
+    font-family: 'Life Savers', cursive;/*Google Fontsを適用 */
+    font-size: 1.2em;
+    background-color: rgba(0, 200, 210, 0.1);
+}
+
+/* header部分のCSS */
+header {
+    width: auto;
+    background-color: rgba(0, 200, 210, 0.5);
+    line-height: 1.4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#Top {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#Title h1 {
+    transform: rotate(5deg);
+    font-size: 2.5em;
+    text-shadow: 3px 3px 3px #fff;
+}
+
+a {
+    color: #333;
+}
+
+a:visited {
+    color: #555;
+}
+
+a:hover {
+    text-shadow: 2px 2px 2px #ddd;
+    color: #888;
+    transition: 700ms;
+}
+
+#menu {
+    width: 700px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu h2 {
+    text-align: center;
+    margin-left: 30px;
+}
+
+/* main部分のCSS */
+main {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h2 , h3 {
+    text-align: center;
+}
+
+#picture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img-div {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.Add-picture {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-picture {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.memo {
+    width: 200px;
+    height: 50px;
+}
+
+.add-memo {
+    display: flex;
+}
+
+#tutorial {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 3px;
+    box-shadow: 2px 2px 2px #ddd;
+}
+
+/*写真追加メニュー*/
+.hidden_box {
+    margin: 2em 0;
+    padding: 0;
+}
+
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.hidden_box input:checked ~ .hidden_show {
+    background-color: rgb(0, 200, 210);
+    padding: 30px 0;
+    height: auto;
+    opacity: 1;
+    box-shadow: 2px 2px 2px #ddd;
+    width: 50%;
+}
+
+/* footer部分のCSS */
+footer {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ddd;
+}
+
+#End {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #333;
+}
+
+#End h3 {
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+      footer {
+        width: 500px;
+    }
+
+    .add-picture {
+        width: 400px;
+    }
+
+    header {
+        width: 500px;
+    }
+
+    #menu {
+        display: block;
+        width: auto;
+    }
+
+    #menu h2 {
+        margin-left: 5px;
+    }
+
+    main {
+        width: 500px;
+    }
+
+    main {
+        width: 500px;
+    }
+
+    .hidden_box input:checked ~ .hidden_show {
+        width: 100%;
+    }
+}

@@ -1,4 +1,4 @@
-# Favorite PictureViewer
+# Favorite-PictureViewer
 
 画像をWebページ上に管理できるサービスです。
 
@@ -19,6 +19,11 @@ Favorite PictureViewerは、kenton116が作成したアプリです。
 メモ機能、撮影地機能、リンクを実装しました。
 
 ## 使い方
+<<<<<<< HEAD
+=======
+[こちら](https://kenton116.github.io/Favorite-PictureViewer/main.html)からアプリにアクセスできます。（日本語）
+
+>>>>>>> 0d91a678eca9b6004f36523ad894b3b33af33a96
 [こちら](https://github.com/kenton116/Favorite-PictureViewer/wiki/How-to-play)で確認できます。
 
 ## 推奨ブラウザ
